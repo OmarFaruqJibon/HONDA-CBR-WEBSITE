@@ -1,0 +1,143 @@
+/* common css */
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.orange{
+    color: #E76F51;
+}
+section{
+    margin-bottom: 130px;
+}
+
+
+/* Banner styles */
+.banner-wrapper{
+    background-color: #264653;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.banner-wrapper p{
+    color: #c5c5c5;
+}
+.honda-purchase-btn{
+    background: #E76F51;
+    border-radius: 5px;
+    padding: 8px 40px;
+    border: none;
+    color: white;
+}
+
+
+/* Features bike section styles */
+.features-title{
+    padding-bottom: 90px;
+}
+.features-bike-1, .features-bike-3{
+    filter:grayscale(100%);
+}
+.features-bikes img{
+    width: 288px;
+    height: 243px;
+    padding: 10px;
+}
+
+/* user review section */
+.user{
+    padding: 42px;
+}
+.user img{
+    width: 185px;
+    height: auto;
+}
+.rating{
+    text-align: center;
+    color: #E76F51;
+}
+.user-message{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+}
+.user-name{
+    color: #23A6F0;
+    font-size: 14px;
+    text-align: center;
+}
+.user-profession{
+    color: #252B42;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* user question section */
+.user-question-img{
+    width: 342px;
+    height: auto;
+}
+.user-questions{
+    width: 100%;
+}
+
+
+
+/* news section */
+.new-launch h3{
+    background-color: #E76F51;
+    color:white;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.launch-message{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+    text-align:right;
+    font-style: italic;
+}
+.about-us h3{
+    background-color: #E76F51;
+    color:white;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.about-us p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+    text-align: justify;
+}
+
+
+/* All bike section */
+.bike-info{
+    text-align: center;
+}
+.all-bikes h5{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #E76F51;
+}
+.cart-btn{
+    background: #E76F51;
+    border-radius: 5px;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.cart-btn:hover{
+    background: white;
+    color: #E76F51;
+    border: 2px solid #E76F51;
+}
